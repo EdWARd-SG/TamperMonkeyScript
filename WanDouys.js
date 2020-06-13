@@ -32,7 +32,7 @@ let $ = window.jQuery || window.$;
     }
 })();
 
-$(document).bind('DOMSubtreeModified', async () {
+$(document).bind('DOMSubtreeModified', async () => {
     try {
         if($('img[alt=close]').length > 0) {
             $('img[alt=close]').click();
