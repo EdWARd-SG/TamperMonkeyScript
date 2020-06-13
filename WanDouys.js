@@ -31,3 +31,13 @@ let $ = window.jQuery || window.$;
         console.errror(err);
     }
 })();
+
+$(document).bind('DOMSubtreeModified', async () {
+    try {
+        if($('img[alt=close]').length > 0) {
+            $('img[alt=close]').click();
+        }
+    } catch (err) {
+        console.error(err);
+    }
+});
