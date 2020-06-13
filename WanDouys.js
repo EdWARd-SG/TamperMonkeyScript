@@ -2,7 +2,7 @@
 // @name         豌豆
 // @icon         https://www.wandouys.com/favicon.ico
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       EdWARd
 // @include      https://www.wandouys.com/*
